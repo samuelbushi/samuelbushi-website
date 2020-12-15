@@ -1,3 +1,6 @@
-# Samuel Bushi - Personal Website
- 
-A website which Shows my education, experience, projects and more.
+# Samuel Bushi - Resume Website
+
+
+###  [View the site live here](https://samuelbushi.com/)
+
+ https://samuelbushi.com/
