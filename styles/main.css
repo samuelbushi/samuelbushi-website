@@ -2987,7 +2987,7 @@ p {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: "Rubik", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Rubik", "Rubik", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
