@@ -81,41 +81,6 @@
   width: 50% !important;
 }
 
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-brown,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-brown {
-  color: #fff;
-  background: #378C3F;
-}
-
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-blue {
-  color: #fff;
-  background: #2CA8FF;
-}
-
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
-  color: #fff;
-  background: #18ce0f;
-}
-
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-orange {
-  background: #FFB236;
-  color: #fff;
-}
-
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-red,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-red {
-  color: #fff;
-  background: #FF3636;
-}
-
-.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default,
-.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
-  color: #fff;
-}
-
 .bootstrap-switch .bootstrap-switch-label {
   text-align: center;
   z-index: 100;
@@ -415,7 +380,6 @@
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
-  -o-transform: 300ms ease 0s;
   transition: 300ms ease 0s;
 }
 
@@ -3296,7 +3260,7 @@ Created using IcoMoon - icomoon.io
   display: inline-block;
   font: normal normal normal 14px/1 'Nucleo Outline';
   font-size: inherit;
-  speak: none;
+  speak-as: none;
   text-transform: none;
   /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
@@ -4101,7 +4065,7 @@ Created using IcoMoon - icomoon.io
 
 .footer nav {
   display: inline-block;
-  float: left;
+  float: none;
 }
 
 .footer ul {
@@ -6464,6 +6428,33 @@ Created using IcoMoon - icomoon.io
     font-family: Poppins, sans-serif
 }
 
-.upset {
-    z-index: 5
+
+
+.startupconatiner {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+  gap: 15px;
+
+  text-align: center;
+}
+
+.startupconatiner img {
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.stbox1{
+width: 240px;
+
+}
+
+.stbox2{
+  width: 240px;
+}
+
+.stbox3{
+  width: 240px;
 }
