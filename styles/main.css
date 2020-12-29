@@ -6436,25 +6436,26 @@ Created using IcoMoon - icomoon.io
   margin-top: 50px;
   margin-right: 15px;
   margin-left: 15px;
+  margin-bottom: -20px;
   gap: 15px;
 
   text-align: center;
 }
 
 .startupconatiner img {
-  border-radius: 6px;
+  border-radius: 7px;
   cursor: pointer;
 }
 
 .stbox1{
-width: 240px;
+width: 220px;
 
 }
 
 .stbox2{
-  width: 240px;
+  width: 220px;
 }
 
 .stbox3{
-  width: 240px;
+  width: 220px;
 }
