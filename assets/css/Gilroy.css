@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Gilroy';
-	src: url(/assets/fonts/Gilroy-Light.woff2) format('woff2'),
-	url(/assets/fonts/Gilroy-Light.woff) format('woff');
+	src: url(../../assets/fonts/Gilroy-Light.woff2?h=c12ee3879b1ae2c0fc8824ba10982240) format('woff2'),
+	url(../../assets/fonts/Gilroy-Light.woff?h=c12ee3879b1ae2c0fc8824ba10982240) format('woff');
 	font-weight: 300;
 	font-style: normal;
 }

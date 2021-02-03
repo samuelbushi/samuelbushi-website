@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'GilroyBold';
-	src: url(/assets/fonts/Gilroy-ExtraBold.woff2) format('woff2'),
-	url(/assets/fonts/Gilroy-ExtraBold.woff) format('woff');
+	src: url(../../assets/fonts/Gilroy-ExtraBold.woff2?h=b49eb9a8bf31f3b4a85ec34effad8a0e) format('woff2'),
+	url(../../assets/fonts/Gilroy-ExtraBold.woff?h=b49eb9a8bf31f3b4a85ec34effad8a0e) format('woff');
 	font-weight: 800;
 	font-style: normal;
 }
