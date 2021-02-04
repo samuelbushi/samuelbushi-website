@@ -4,15 +4,6 @@
         <loc>https://samuelbushi.com/Dev/404.html</loc>
     </url>
     <url>
-        <loc>https://samuelbushi.com/Dev/archive.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/Dev/blog.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/Dev/games.html</loc>
-    </url>
-    <url>
         <loc>https://samuelbushi.com/School/Detyra/algoritmike1.html</loc>
     </url>
     <url>
@@ -29,6 +20,15 @@
     </url>
     <url>
         <loc>https://samuelbushi.com/Side/bori.html</loc>
+    </url>
+    <url>
+        <loc>https://samuelbushi.com/archive.html</loc>
+    </url>
+    <url>
+        <loc>https://samuelbushi.com/blog.html</loc>
+    </url>
+    <url>
+        <loc>https://samuelbushi.com/games.html</loc>
     </url>
     <url>
         <loc>https://samuelbushi.com/index.html</loc>
