@@ -16,19 +16,9 @@
     <meta property="og:description" content="Shenime shkollore per praktiken e programimit, hyrjes ne C, algoritmave etc. ">
     <meta name="twitter:image" content="https://samuelbushi.com/assets/img/f0cc7586004125.5d8c82635acb4.jpg">
     <meta name="twitter:title" content="Praktike ne Gjuhen C - 12TIK | Samuel Bushi">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/best-seller%20(4).png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/best-seller%20(3).png">
-    <link rel="icon" type="image/png" sizes="256x256" href="/assets/img/best-seller%20(2).png">
-    <link rel="icon" type="image/png" sizes="256x256" href="/assets/img/best-seller%20(2).png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/best-seller.png">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/Gilroy.css">
-    <link rel="stylesheet" href="/assets/css/GilroyBold.css">
-    <link rel="stylesheet" href="/assets/css/Inter.css">
-    <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/assets/css/adaptive-em.compiled.css">
-    <link rel="stylesheet" href="/assets/css/Brands.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -145,8 +135,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p class="text-monospace text-left" style="margin-left: 4%;margin-right: 4%;margin-top: 0px;margin-bottom: 80px;font-size: 18px;background-color: #f1f1f1;">#include &lt;stdio.h&gt;<br>int main() {<br> char s[] = "Pershendetje";<br> int i;<br><br> for (i = 0; s[i] != '\0'; ++i);<br> <br> printf("Gjatesia eshte: %d", i);<br> return 0;<br>}<br></p>
     <p class="text-left" style="margin-left: 4%;margin-right: 4%;margin-top: 0px;margin-bottom: 18px;font-size: 18px;">Program qe bashkon 2 matrica:</p>
     <p class="text-monospace text-left" style="margin-left: 4%;margin-right: 4%;margin-top: 0px;margin-bottom: 80px;font-size: 18px;background-color: #f1f1f1;">#include &lt;stdio.h&gt;<br>int main() {<br> int r, c, a[100][100], b[100][100], sum[100][100], i, j;<br> printf("Fusni numrin e rreshtave: (midis 1 dhe 100): ");<br> scanf("%d", &amp;r);<br> printf("Fusni numrin e kolonave: (midis 1 dhe 100): ");<br> scanf("%d", &amp;c);<br><br> printf("\nFut elementet e matrices se pare:\n");<br> for (i = 0; i &lt; r; ++i)<br> for (j = 0; j &lt; c; ++j) {<br> printf("Fut elementin a%d%d: ", i + 1, j + 1);<br> scanf("%d", &amp;a[i][j]);<br> }<br><br> printf("Fut elementet e matrices se dyte:\n");<br> for (i = 0; i &lt; r; ++i)<br> for (j = 0; j &lt; c; ++j) {<br> printf("Fut elementin a%d%d: ", i + 1, j + 1);<br> scanf("%d", &amp;b[i][j]);<br> }<br><br> // bashkimi i matricave<br> for (i = 0; i &lt; r; ++i)<br> for (j = 0; j &lt; c; ++j) {<br> sum[i][j] = a[i][j] + b[i][j];<br> }<br><br> // afishimi<br> printf("\nShuma e 2 matricave: \n");<br> for (i = 0; i &lt; r; ++i)<br> for (j = 0; j &lt; c; ++j) {<br> printf("%d ", sum[i][j]);<br> if (j == c - 1) {<br> printf("\n\n");<br> }<br> }<br><br> return 0;<br>}<br></p>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
