@@ -26,4 +26,13 @@ window.intergramCustomizations = {
         alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
     };
  </script>
-<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script><p style="margin-left: 9.4%;color: rgb(123,123,123);font-family: Inter;margin-top: 10px;margin-bottom: -1px;font-size: 1em;border-color: rgb(188,188,188);line-height: 1.7em;"><strong>contact@samuelbushi.com&nbsp; </strong>| e-mail<br><strong>Meli#1122&nbsp;</strong>| Discord<br></p><p style="margin-left: 9.4%;color: rgb(123,123,123);font-family: Inter;margin-top: 0px;margin-bottom: 0px;font-size: 0.8em;border-color: rgb(188,188,188);line-height: 1.7em;">Main Website v0.53</p><p class="text-center" style="margin-left: 9.6;color: rgb(71,71,71);font-family: 'Creattion Demo';margin-bottom: 10px;font-size: 1.8em;border-color: rgb(188,188,188);margin-top: 1.5em;"><strong>Samuel Bushi</strong></p><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script></body></html>
+<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script><p style="margin-left: 9.4%;color: rgb(123,123,123);font-family: Inter;margin-top: 10px;margin-bottom: -1px;font-size: 1em;border-color: rgb(188,188,188);line-height: 1.7em;"><strong>contact@samuelbushi.com&nbsp; </strong>| e-mail<br><strong>Meli#1122&nbsp;</strong>| Discord<br></p><script>
+
+fetch('https://api.github.com/repos/samuelbushi/samuelbushi-website/commits?per_page=1')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('message').innerHTML = res[0].commit.message
+  })
+
+
+</script><p id="message" style="margin-left: 9.4%;color: rgb(123,123,123);font-family: Inter;margin-top: 0px;margin-bottom: 0px;font-size: 0.8em;border-color: rgb(188,188,188);line-height: 1.7em;">Main Website v0.53</p><p class="text-center" style="margin-left: 9.6;color: rgb(71,71,71);font-family: 'Creattion Demo';margin-bottom: 10px;font-size: 1.8em;border-color: rgb(188,188,188);margin-top: 1.5em;"><strong>Samuel Bushi</strong></p><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script></body></html>
