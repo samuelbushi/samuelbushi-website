@@ -1,84 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://samuelbushi.com/blog/</loc>
+        <loc>/404.html</loc>
     </url>
     <url>
-        <loc>https://samuelbushi.com/blog/whiteblog.html</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>https://samuelbushi.com/dev/thank-you.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/education/grades.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/education/</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/oldprojects/arrow-of-steel.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/oldprojects/crowl.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/oldprojects/</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/oldprojects/kingsandpigs.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/oldprojects/mansion.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/fjalite-e-perbera-te-nenrenditura.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/operatoretekrahasimit.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/operatoretllogjike.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/praktike12c.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/praktike12elona.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/programim3.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/school/ushtrimeperseritese11.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/404.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/dlab.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/hasangina.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/newsletter.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/report.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/resume.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/wildfild.html</loc>
-    </url>
-    <url>
-        <loc>https://samuelbushi.com/zeta.html</loc>
+        <loc>/resume.html</loc>
     </url>
 </urlset>
